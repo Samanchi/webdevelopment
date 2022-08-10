@@ -1,0 +1,101 @@
+﻿body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("/Users/apple/Desktop/Assignment/notepad.jpeg");
+    background-color: #FCFCFC;
+}
+
+
+.note {
+    color:black;
+    text-align:center;
+    font-family:Bradley Hand;
+    font-size:60px;
+    margin-bottom:1rem;
+
+}
+
+.heading {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header1 {
+    width: 150%;
+    padding: 5%;
+    border: 2px solid;
+    margin: 8px 0;
+    outline: none;
+    box-sizing: content-box;
+    border-color: #ff9a8d;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+
+.submit_button {
+    width:55%;
+    background-color:green;
+    padding:3%;
+    color:black;
+    text-align:center;
+}
+
+.button {
+    width: 12%;
+    background-color: #146EBE;
+    color: whitesmoke;
+}
+
+.container {
+    max-width:900px;
+    margin:0 auto;
+    padding:0 20px; 
+}
+
+
+.notes {
+    padding:1rem;
+    background-color:white;
+    border-radius:5px;
+    margin:1rem 0;
+
+}
+
+.note-counter, .note-text {
+    font-size:1.4rem;
+}
+
+
+
+.note-title {
+    font-size:1.6rem;
+
+}
+
+
+.note-btn {
+    padding: 7px;
+    margin-top: 5px;
+    background-color: orangered;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: #F8F8F8;
+    cursor:pointer;
+}
+
+.edit-btn {
+    background-color: #146EBE;
+    color: white;
+    padding: 7px;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
